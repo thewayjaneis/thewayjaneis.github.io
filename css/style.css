@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat:wght@400;500&family=Cinzel:wght@600&family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap");
+
+.hidden {
+  display: none;
+}
+
+#clock {
+  font-family: "Josefin Sans", sans-serif;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  color: #84a5a7;
+  font-size: 30px;
+}
+
+#greeting {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  margin-top: 35px;
+}
+
+#todo-list li span:first-child {
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+  color: rgb(39, 66, 66);
+}
+
+#weather span {
+  font-family: "Cinzel", serif;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#weather {
+  position: fixed;
+  top: 30px;
+  right: 40px;
+}
+#login-form {
+  text-align: center;
+  margin-top: 100px;
+}
+#login-form input {
+  padding: 10px;
+  border-style: none;
+  background: none;
+  border-bottom-style: solid;
+  width: 80px;
+  text-align: center;
+}
+button {
+  border-radius: 50%;
+  color: darkslategray;
+  border-style: none;
+  background: none;
+  margin-left: 20px;
+}
+
+#login-form button {
+  font-weight: 900;
+}
+#todo-list {
+  text-align: center;
+  list-style: none;
+}
+
+#todo-form {
+  text-align: center;
+  margin-top: 30px;
+}
+#todo-form input {
+  padding: 10px;
+  border-style: none;
+  background: none;
+  border-bottom-style: solid;
+  width: 200px;
+  text-align: center;
+}
+#todo-form input:focus {
+  outline: none;
+}
+#quote {
+  position: absolute;
+  bottom: 30px;
+  left: 170px;
+  color: rgb(175, 92, 119);
+  font-family: "Cinzel", serif;
+}
+
+button {
+  border-radius: 50%;
+  color: darkslategray;
+  border-style: none;
+  background: none;
+  margin-left: 20px;
+}
